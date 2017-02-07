@@ -4,6 +4,10 @@
     {
       "uri": "main",
       "pkg": "io.github.mayunfei.smallupgrade.app.main"
+    },
+    {
+      "uri": "upgrade",
+      "pkg": "io.github.mayunfei.smallupgrade.app.upgrade"
     }
   ]
 }
