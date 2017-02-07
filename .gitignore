@@ -13,6 +13,7 @@ gen/
 out/
 
 *.iml
+.idea
 
 # Gradle files
 .gradle
