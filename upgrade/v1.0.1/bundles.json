@@ -13,6 +13,13 @@
     ]
   },
   "updates": [
-
+    {
+      "pkg": "io.github.mayunfei.smallupgrade.app.main",
+      "url": "https://raw.githubusercontent.com/MaYunFei/SmallUpgrade/master/upgrade/v1.0.1/io.github.mayunfei.smallupgrade.app.main.apk"
+    },
+    {
+      "pkg": "io.github.mayunfei.smallupgrade.app.upgrade",
+      "url": "https://raw.githubusercontent.com/MaYunFei/SmallUpgrade/master/upgrade/v1.0.1/io.github.mayunfei.smallupgrade.app.upgrade.apk"
+    }
   ]
 }
