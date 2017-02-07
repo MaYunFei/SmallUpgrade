@@ -13,6 +13,13 @@
     ]
   },
   "updates": [
-
+    {
+      "pkg": "io.github.mayunfei.smallupgrade.app.main",
+      "url": "http://wequick.github.io/small/upgrade/v1.0.0/io.github.mayunfei.smallupgrade.app.main.apk"
+    },
+    {
+      "pkg": "io.github.mayunfei.smallupgrade.app.upgrade",
+      "url": "http://wequick.github.io/small/upgrade/v1.0.0/io.github.mayunfei.smallupgrade.app.upgrade.apk"
+    }
   ]
 }

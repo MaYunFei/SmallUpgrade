@@ -11,13 +11,25 @@ android {
     versionName "1.0"
     testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
   }
+
+  // Signing
+  signingConfigs {
+    release {
+      storeFile file('../Small.jks')
+      storePassword "small123"
+      keyAlias "small"
+      keyPassword "small123"
+    }
+  }
+
   buildTypes {
     release {
-      minifyEnabled false
-      proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+      signingConfig signingConfigs.release
     }
   }
 }
+
+
 
 dependencies {
   compile fileTree(dir: 'libs', include: ['*.jar'])
