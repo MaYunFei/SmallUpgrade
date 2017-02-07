@@ -116,7 +116,7 @@ public class UpgradeActivity extends AppCompatActivity implements View.OnClickLi
           try {
             // Example HTTP request to get the upgrade bundles information.
             // Json format see http://wequick.github.io/small/upgrade/bundles.json
-            URL url = new URL("http://172.16.198.180:8000/update_bundles.json");
+            URL url = new URL("https://raw.githubusercontent.com/MaYunFei/SmallUpgrade/master/upgrade/v1.0.0/bundles.json");
             HttpURLConnection conn = (HttpURLConnection) url.openConnection();
             StringBuilder sb = new StringBuilder();
             InputStream is = conn.getInputStream();
