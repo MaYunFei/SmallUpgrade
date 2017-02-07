@@ -13,9 +13,14 @@ bin/
 gen/
 out/
 
+*.iml
+
 # Gradle files
-.gradle/
+.gradle
 build/
+
+#small
+build-small
 
 # Local configuration file (sdk path, etc)
 local.properties
