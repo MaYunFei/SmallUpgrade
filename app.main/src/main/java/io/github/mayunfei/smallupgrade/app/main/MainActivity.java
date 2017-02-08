@@ -11,9 +11,18 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     super.onCreate(savedInstanceState);
     setContentView(R.layout.activity_main);
     findViewById(R.id.btn_upgrade).setOnClickListener(this);
+    findViewById(R.id.btn_feature1).setOnClickListener(this);
   }
 
   @Override public void onClick(View v) {
-    Small.openUri("upgrade",this);
+    switch (v.getId()){
+      case R.id.btn_upgrade:
+        Small.openUri("upgrade",this);
+        break;
+      case R.id.btn_feature1:
+        Small.openUri("feature1",this);
+        break;
+    }
+
   }
 }

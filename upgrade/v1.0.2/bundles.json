@@ -1,0 +1,34 @@
+{
+  "manifest": {
+    "version": "1.0.0",
+    "bundles": [
+      {
+        "uri": "main",
+        "pkg": "io.github.mayunfei.smallupgrade.app.main"
+      },
+      {
+        "uri": "upgrade",
+        "pkg": "io.github.mayunfei.smallupgrade.app.upgrade"
+      },
+      {
+        "uri": "feature1",
+        "type": "app",
+        "pkg": "io.github.mayunfei.appfeature1"
+      }
+    ]
+  },
+  "updates": [
+    {
+      "pkg": "io.github.mayunfei.smallupgrade.app.main",
+      "url": "https://raw.githubusercontent.com/MaYunFei/SmallUpgrade/master/upgrade/v1.0.2/io.github.mayunfei.smallupgrade.app.main.apk"
+    },
+    {
+      "pkg": "io.github.mayunfei.smallupgrade.app.upgrade",
+      "url": "https://raw.githubusercontent.com/MaYunFei/SmallUpgrade/master/upgrade/v1.0.2/io.github.mayunfei.smallupgrade.app.upgrade.apk"
+    },
+    {
+      "pkg": "io.github.mayunfei.appfeature1",
+      "url": "https://raw.githubusercontent.com/MaYunFei/SmallUpgrade/master/upgrade/v1.0.2/io.github.mayunfei.appfeature1.apk"
+    }
+  ]
+}

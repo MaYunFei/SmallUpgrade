@@ -1,1 +1,1 @@
-include ':app', ':app.main', ':app.upgrade'
+include ':app', ':app.main', ':app.upgrade', ':app.feature1'

@@ -8,6 +8,11 @@
     {
       "uri": "upgrade",
       "pkg": "io.github.mayunfei.smallupgrade.app.upgrade"
+    },
+    {
+      "uri": "feature1",
+      "type": "app",
+      "pkg": "io.github.mayunfei.appfeature1"
     }
   ]
 }
